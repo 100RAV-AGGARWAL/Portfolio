@@ -4,7 +4,7 @@ import Page from "components/utility/Page";
 import Projects from "@/components/designs/Experiences";
 import React from "react";
 
-function designs() {
+function experiences() {
   return (
     <Page
       currentPage="Experiences"
@@ -17,4 +17,4 @@ function designs() {
   );
 }
 
-export default designs;
+export default experiences;

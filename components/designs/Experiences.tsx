@@ -1,10 +1,10 @@
 import React from "react";
-import { designs } from "@/data/content/experiences";
+import { experiences } from "@/data/content/experiences";
 
-function Designs() {
+function Experiences() {
   return (
     <div className="grid grid-cols-1 gap-8 md:grid-cols-2 items-start">
-      {designs.map((item, index) => {
+      {experiences.map((item, index) => {
         return (
           <div
             className="w-full"
@@ -23,4 +23,4 @@ function Designs() {
   );
 }
 
-export default Designs;
+export default Experiences;
