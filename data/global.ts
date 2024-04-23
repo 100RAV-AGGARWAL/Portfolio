@@ -71,6 +71,18 @@ export const footer: Footer = {
           leavesWebsite: true,
         },
         {
+          name: "Twitter",
+          link: "https://twitter.com/souravagg01",
+          icon: "/static/icons/twitter.svg",
+          leavesWebsite: true,
+        },
+        {
+          name: "Instagram",
+          link: "https://www.instagram.com/100rav_agg/",
+          icon: "/static/icons/instagram.svg",
+          leavesWebsite: true,
+        },
+        {
           name: "Email",
           link: "mailto:souravagg01@gmail.com",
           icon: "/static/icons/mail-f.svg",

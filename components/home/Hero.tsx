@@ -25,7 +25,7 @@ function Hero() {
           <img
             className="sqD bottom-[-300px] -right-1/4 sm:right-[-20%] lg:bottom-[-360px] lg:right-[-120px] w-[400px]"
             style={{ animationDelay: "0.3s", scale: '0.8', filter: 'brightness(82%)' }}
-            src="/static/doodles/hero/sourav_doodle2.png"
+            src="/static/doodles/hero/sourav_doodle.png"
           />
           <img
             className="sqD hidden sm:block bottom-[-340px] left-[-180px]"
