@@ -1,26 +1,21 @@
 import React from "react";
 import { experiences } from "@/data/content/experiences";
+import { VerticalTimeline } from "react-vertical-timeline-component";
+import ExperienceCard from "./ExperienceCard";
+
+import "react-vertical-timeline-component/style.min.css";
+import styles from "./styles/ExperienceCard.module.css"
 
 function Experiences() {
-  return (
-    <div className="grid grid-cols-1 gap-8 md:grid-cols-2 items-start">
-      {experiences.map((item, index) => {
-        return (
-          <div
-            className="w-full"
-            key={index}
-          >
-            <a href={item.link} target="_blank" className="w-full">
-              <img
-                className="w-full h-96 hover:opacity-75 transition-opacity object-cover"
-                src={item.img}
-              />
-            </a>
-          </div>
-        );
-      })}
-    </div>
-  );
+    return (
+        <div className={'flex flex-col ' + styles['custom-experience-card-styles']}>
+            <VerticalTimeline>
+                {experiences.map((experience, index) => (
+                    <ExperienceCard key={index} {...experience} />
+                ))}
+            </VerticalTimeline>
+        </div>
+    );
 }
 
 export default Experiences;
