@@ -14,9 +14,15 @@ export type TCommonProps = {
   icon?: string;
 };
 
+export type SiteLink = {
+  title: string;
+  url: string;
+};
+
 export type TExperience = {
   companyName: string;
   iconBg: string;
   date: string;
   points: string[];
+  siteLinks?: SiteLink[];
 } & Required<Omit<TCommonProps, "name">>;

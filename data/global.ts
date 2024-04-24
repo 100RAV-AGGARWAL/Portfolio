@@ -1,6 +1,7 @@
 type Route = {
   title: string,
-  path: string
+  url: string,
+  leavesWebsite: boolean,
 }
 
 type FooterCol = {
@@ -20,21 +21,30 @@ type Footer = {
 export const routes: Route[] = [
   {
     title: "Home",
-    path: "/",
+    url: "/",
+    leavesWebsite: false
   },
   {
     title: "Projects",
-    path: "/projects",
+    url: "/projects",
+    leavesWebsite: false
   },
   {
     title: "Experiences",
-    path: "/experiences",
+    url: "/experiences",
+    leavesWebsite: false
+  },
+  {
+    title: "Resume",
+    url: "https://drive.google.com/file/d/1uMgZdN2oYSdzWLLgbulowXJaCSe-KyF0/view?usp=sharing",
+    leavesWebsite: true
   },
 ];
 
 
 export const footer: Footer = {
   columns: [
+
     {
       title: "Pages",
       links: [
@@ -52,6 +62,11 @@ export const footer: Footer = {
           name: "Experiences",
           link: "/experiences",
           leavesWebsite: false,
+        },
+        {
+          name: "Resume",
+          link: "https://drive.google.com/file/d/1uMgZdN2oYSdzWLLgbulowXJaCSe-KyF0/view?usp=sharing",
+          leavesWebsite: true,
         },
       ],
     },

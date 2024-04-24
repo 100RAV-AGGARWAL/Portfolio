@@ -1,6 +1,4 @@
-import {
-    VerticalTimelineElement,
-} from "react-vertical-timeline-component";
+import { VerticalTimelineElement } from "react-vertical-timeline-component";
 import { TExperience } from "types";
 
 import "react-vertical-timeline-component/style.min.css";
@@ -41,11 +39,37 @@ const ExperienceCard: React.FC<TExperience> = (experience) => {
                 {experience.points.map((point, index) => (
                     <li
                         key={`experience-point-${index}`}
-                        className="text-white-100 pl-1 text-[14px] tracking-wider"
+                        className="text-white-100 pl-1 text-[14px] tracking-wider text-justify"
                     >
                         {point}
                     </li>
                 ))}
+                <li
+                    key={`experience-point-${experience.points.length}`}
+                    className="text-white-100 pl-1 text-[14px] tracking-wider text-justify"
+                >
+                    <span>
+                        Sites worked on:{" "}
+                        {experience.siteLinks?.map((siteLink, index) => (
+                            <span>
+                                <a
+                                    key={`site-link-${index}`}
+                                    style={{ color: "rgb(34 211 238)" }}
+                                    href={siteLink.url}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    {siteLink.title}
+                                </a>
+                                {index != experience.siteLinks.length - 1 ? (
+                                    <span>, </span>
+                                ) : (
+                                    <></>
+                                )}
+                            </span>
+                        ))}
+                    </span>
+                </li>
             </ul>
         </VerticalTimelineElement>
     );
