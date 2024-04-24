@@ -41,6 +41,7 @@ export default function MobileNavbar() {
                         <img
                             className="mr-3"
                             src="/static/logos/logo_full.png"
+                            style={{scale: '1.1'}}
                             width="160"
                         />
                     </Link>
