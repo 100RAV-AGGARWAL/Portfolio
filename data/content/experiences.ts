@@ -2,7 +2,7 @@ import { TExperience } from "types";
 
 export const experiences: TExperience[] = [
     {
-        title: "Frontend Developer",
+        title: "Angular Developer",
         companyName: "Tracktrades",
         icon: "/static/experiences/Tracktrades.jpeg",
         iconBg: "#383E56",
@@ -19,7 +19,7 @@ export const experiences: TExperience[] = [
         ],
     },
     {
-        title: "Full Stack Developer",
+        title: "SDE Intern",
         companyName: "Kshipta Technologies LLP",
         icon: "/static/experiences/kshipta.png",
         iconBg: "#E6DEDD",
