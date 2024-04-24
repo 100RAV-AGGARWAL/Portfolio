@@ -10,7 +10,6 @@ function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
       ? "Sourav - Software Developer."
       : `${currentPage} - Sourav Portfolio`
   }`;
-  console.log(currentPage);
   return (
     <div
       className="w-full m-auto flex flex-col items-center justify-center min-h-screen opening-box-animate-paddin text-white overflow-hidden md:overflow-visible"
@@ -41,14 +40,22 @@ function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
         <meta name="description" content={desc} />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.linkedin.com/in/sourav-aggarwal/" />
+        <meta property="og:url" content="https://portfolio-100ravagg.vercel.app/" />
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={desc} />
+        <meta
+          property="og:image"
+          content="https://portfolio-100ravagg.vercel.app/static/logos/sourav_circle.jpeg"
+        />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://www.linkedin.com/in/sourav-aggarwal/" />
+        <meta property="twitter:url" content="https://portfolio-100ravagg.vercel.app/" />
         <meta property="twitter:title" content={pageTitle} />
         <meta property="twitter:description" content={desc} />
+        <meta
+          property="twitter:image"
+          content="https://portfolio-100ravagg.vercel.app/static/logos/sourav_circle.jpeg"
+        ></meta>
         {/* <script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
