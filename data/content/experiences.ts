@@ -62,7 +62,7 @@ export const experiences: TExperience[] = [
         companyName: "Electrade by Hatchnhack",
         icon: "/static/experiences/electrade.jpeg",
         iconBg: "#E6DEDD",
-        date: "Feb 2023 - Present",
+        date: "Feb 2023 - Jun 2024",
         points: [
             "Implemented Import and Competitor Matching Tool which mapped internal products with import/competitor products fetched from OpenSearch API in many-to-many fashion.",
             "Developed Customer CRM Tool which manages the customers for our company. Also optimized API response time by 91.2%.",
@@ -86,5 +86,15 @@ export const experiences: TExperience[] = [
               url: "https://electrade.in",
           },
       ],
+    },
+    {
+        title: "Business Technical Solutions Associate (SDE)",
+        companyName: "ZS Associates",
+        icon: "/static/experiences/zs.jpeg",
+        iconBg: "#E6DEDD",
+        date: "Jul 2024 - Present",
+        points: [
+            "Working on projects with techstack: Angular, FastAPI, HTML, CSS, Typescript, PostgreSQL",
+        ],
     },
 ];
