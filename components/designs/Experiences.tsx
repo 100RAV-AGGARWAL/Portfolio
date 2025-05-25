@@ -10,7 +10,7 @@ function Experiences() {
     return (
         <div className={'flex flex-col ' + styles['custom-experience-card-styles']}>
             <VerticalTimeline>
-                {experiences.map((experience, index) => (
+                {experiences.reverse().map((experience, index) => (
                     <ExperienceCard key={index} {...experience} />
                 ))}
             </VerticalTimeline>
