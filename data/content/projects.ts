@@ -3,6 +3,15 @@ import { Project } from "types";
 
 const projects: Project[] = [
   {
+    id: 6,
+    title: "SQL Query Visualizer",
+    desc: "A personal utility project aimed towards visaulising my db queries to get to know which part is taking time and help me understand ORM queries better",
+    img: "/static/projects/QueryVisualiser.png",
+    github: "https://github.com/100RAV-AGGARWAL/query-visualizer",
+    link: "https://query-visualizer.vercel.app/",
+    tags: ["React"],
+  },
+  {
     id: 0,
     title: "DecodeCollege",
     desc: "Student Application to help college students manage their academic documents, find courses, remove plagiarism from text, calendar to view the deadlines and many more",
@@ -18,15 +27,6 @@ const projects: Project[] = [
     img: "/static/projects/InfluentialNode.png",
     github: "https://github.com/100RAV-AGGARWAL/Most-Influential-Node",
     tags: ["Python"],
-  },
-  {
-    id: 6,
-    title: "SQL Query Visualizer",
-    desc: "A personal utility project aimed towards visaulising my db queries to get to know which part is taking time and help me understand ORM queries better",
-    img: "/static/projects/QueryVisualiser.png",
-    github: "https://github.com/100RAV-AGGARWAL/query-visualizer",
-    link: "https://query-visualizer.vercel.app/",
-    tags: ["React"],
   },
   {
     id: 2,
