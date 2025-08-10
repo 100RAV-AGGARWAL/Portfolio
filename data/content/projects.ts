@@ -18,7 +18,7 @@ const projects: Project[] = [
     img: "/static/projects/DecodeCollege.png",
     link: "https://decode-college.vercel.app",
     github: "https://github.com/Virtual-Beings/DecodeCollege",
-    tags: ["Angular", "NodeJs", "MongoDb", "CSS", "Cloud Firestore"],
+    tags: ["Angular", "NodeJs", "MongoDb", "Cloud Firestore"],
   },
   {
     id: 1,
