@@ -94,7 +94,7 @@ export const experiences: TExperience[] = [
         iconBg: "#E6DEDD",
         date: "Jul 2024 - Present",
         points: [
-            "Working on projects with techstack: Angular, FastAPI, HTML, CSS, Typescript, PostgreSQL",
+            "Working on projects with techstack: Angular, FastAPI, PostgreSQL"
         ],
     },
 ];

@@ -44,32 +44,34 @@ const ExperienceCard: React.FC<TExperience> = (experience) => {
                         {point}
                     </li>
                 ))}
-                <li
-                    key={`experience-point-${experience.points.length}`}
-                    className="text-white-100 pl-1 text-[14px] tracking-wider text-justify"
-                >
-                    <span>
-                        Sites worked on:{" "}
-                        {experience.siteLinks?.map((siteLink, index) => (
-                            <span>
-                                <a
-                                    key={`site-link-${index}`}
-                                    style={{ color: "rgb(34 211 238)" }}
-                                    href={siteLink.url}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                >
-                                    {siteLink.title}
-                                </a>
-                                {index != experience.siteLinks.length - 1 ? (
-                                    <span>, </span>
-                                ) : (
-                                    <></>
-                                )}
-                            </span>
-                        ))}
-                    </span>
-                </li>
+                {experience.siteLinks?.length > 0 && (
+                    <li
+                        key={`experience-point-${experience.points.length}`}
+                        className="text-white-100 pl-1 text-[14px] tracking-wider text-justify"
+                    >
+                        <span>
+                            Sites worked on:{" "}
+                            {experience.siteLinks?.map((siteLink, index) => (
+                                <span>
+                                    <a
+                                        key={`site-link-${index}`}
+                                        style={{ color: "rgb(34 211 238)" }}
+                                        href={siteLink.url}
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        {siteLink.title}
+                                    </a>
+                                    {index != experience.siteLinks.length - 1 ? (
+                                        <span>, </span>
+                                    ) : (
+                                        <></>
+                                    )}
+                                </span>
+                            ))}
+                        </span>
+                    </li>
+                )}
             </ul>
         </VerticalTimelineElement>
     );
