@@ -20,6 +20,15 @@ const projects: Project[] = [
     tags: ["Python"],
   },
   {
+    id: 6,
+    title: "SQL Query Visualizer",
+    desc: "A personal utility project aimed towards visaulising my db queries to get to know which part is taking time and help me understand ORM queries better",
+    img: "/static/projects/QueryVisualiser.png",
+    github: "https://github.com/100RAV-AGGARWAL/query-visualizer",
+    link: "https://query-visualizer.vercel.app/",
+    tags: ["React"],
+  },
+  {
     id: 2,
     title: "Aplavankula",
     desc: "An app developed to monitor, predict floods in India and inform the authorities and locals about the same.",
