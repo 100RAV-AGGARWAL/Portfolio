@@ -73,19 +73,19 @@ export const experiences: TExperience[] = [
             "Working on Progressive Web Application of Electrade's Vendor Portal.",
         ],
         siteLinks: [
-          {
-            title: "Vendor Portal",
-            url: "https://seller.electrade.in",
-          },
-          {
-            title: "Electrade BOM",
-            url: "https://bom.electrade.in",
-          },
-          {
-              title: "Marketplace",
-              url: "https://electrade.in",
-          },
-      ],
+            {
+                title: "Vendor Portal",
+                url: "https://seller.electrade.in",
+            },
+            {
+                title: "Electrade BOM",
+                url: "https://bom.electrade.in",
+            },
+            {
+                title: "Marketplace",
+                url: "https://electrade.in",
+            },
+        ],
     },
     {
         title: "Business Technical Solutions Associate (SDE)",
@@ -94,7 +94,20 @@ export const experiences: TExperience[] = [
         iconBg: "#E6DEDD",
         date: "Jul 2024 - Present",
         points: [
-            "Working on projects with techstack: Angular, FastAPI, PostgreSQL"
+            "Built backend services for a multi-million-dollar enterprise platform for a Fortune 500 pharmaceutical company using a microservice architecture, ensuring high performance and API reliability",
+            "Implemented modular APIs with SQLAlchemy ORM, efficient relational modeling, and optimized DB design for scalable internal usage.",
+            "Authored complete technical documentation, including API signatures, user flows, and unit test cases.",
+            "Improved API performance by approx. 90% through SQL indexing, query optimization, caching, debouncing, and eliminating redundant service-to-service calls.",
+            "Created FastAPI best-practices playbook adopted across teams for consistent API structure, validations, error handling, dependency management, and security.",
+            "Implemented API rate limiting using an Exponential Moving Average (EMA) algorithm and automated background tasks via APScheduler.",
+            "Designed inter-pod communication flows and developed both sync and async services using SQLAlchemy (sync-async engine, session management, lifespan events)",
+            "Ensured enterprise-grade authentication using PingOne SAML, OAuth, and RBAC-based authorization",
+            "Maintained strong code quality with Pytest (mocker), Pylint, SonarQube, Trufflehog scanning, and pre-commit hooks.",
+            "Solely developed a full-stack internal application using Angular, FastAPI, and PostgreSQL, establishing the application architecture",
+            "Developing a multi-million-dollar project including document-management module integrating React, FastAPI backend, and MS Office automation",
+            "Building a Vite + React + Jest frontend with real-time collaborative editing using CKEditor, custom annotation system, and metadata capture features",
+            "Did a POC on custom MS Word plugin using Office.js for content tagging, smart metadata extraction, and seamless backend integration",
+            "Contributing to backend enhancements (FastAPI, SQLAlchemy, Pydantic) to support document workflows, user activity logs, and content synchronization"
         ],
     },
 ];
