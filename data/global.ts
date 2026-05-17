@@ -36,7 +36,7 @@ export const routes: Route[] = [
   },
   {
     title: "Resume",
-    url: "https://drive.google.com/file/d/1PFD7DIpZUFJCe3E-d440fYbmnlBx50HM/view?usp=sharing",
+    url: "https://drive.google.com/file/d/1KP4IbbLo8U28VOT8J4KOHaKfHS8lUx2n/view?usp=sharing",
     leavesWebsite: true
   },
 ];
