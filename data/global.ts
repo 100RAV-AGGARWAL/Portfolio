@@ -36,7 +36,7 @@ export const routes: Route[] = [
   },
   {
     title: "Resume",
-    url: "https://drive.google.com/file/d/1HCL_XM-T01J0bGT9owkdkBF1LUB8b36C/view?usp=sharing",
+    url: "https://drive.google.com/file/d/17-vHJi_jySo8z-sC80KAuxuXRh6JOO8g/view?usp=sharing",
     leavesWebsite: true
   },
 ];
@@ -65,7 +65,7 @@ export const footer: Footer = {
         },
         {
           name: "Resume",
-          link: "https://drive.google.com/file/d/1HCL_XM-T01J0bGT9owkdkBF1LUB8b36C/view?usp=sharing",
+          link: "https://drive.google.com/file/d/17-vHJi_jySo8z-sC80KAuxuXRh6JOO8g/view?usp=sharing",
           leavesWebsite: true,
         },
       ],
